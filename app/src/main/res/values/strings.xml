@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">IntroKotlin903</string>
+    <string name="hola_mundo">Hola mundo!</string>
+    <string name="escribe_tu_nombre">Escribe tu nombre</string>
+    <string name="pulsame">Pulsame</string>
+    <string name="escriba_su_nombre">Escriba su nombre</string>
 </resources>
