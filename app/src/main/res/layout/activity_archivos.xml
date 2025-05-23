@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".practica4.ArchivosActivity">
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="376dp"
+        android:layout_height="79dp"
+        android:hint="Escribe algo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/readButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leer"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/outputText"
+        android:layout_width="378dp"
+        android:layout_height="98dp"
+        android:paddingTop="16dp"
+        android:inputType="textMultiLine"
+        android:textColorHint="#8E8E8E"
+        android:textColor="#000"
+        android:text="Aquí se mostrara el texto"
+        />
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Borrar"
+        />
+
+
+</LinearLayout>

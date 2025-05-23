@@ -26,4 +26,31 @@
         app:layout_constraintTop_toTopOf="parent"
         />
 
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="365dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="Cinepolis"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="365dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo 3"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="365dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo 4"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
 </LinearLayout>
